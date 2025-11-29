@@ -68,10 +68,11 @@ main {
       background-position: center;
       display: none;
       position: absolute;
+      z-index: 999;
     }
 
     .post {
-      position: relative;
+
       margin-bottom: 20px;
 
       .image {

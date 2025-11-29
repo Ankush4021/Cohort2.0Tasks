@@ -66,9 +66,9 @@ main .card .full-screen {
   background-position: center;
   display: none;
   position: absolute;
+  z-index: 999;
 }
 main .card .post {
-  position: relative;
   margin-bottom: 20px;
 }
 main .card .post .image {
