@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+:root{
+    --x: 400px;
+    --y: 400px;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+.section{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/17565230/pexels-photo-17565230.jpeg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.section .box{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(150px at var(--x) var(--y), rgba(250, 246, 246, 0), rgba(0, 0, 0, 0.888));
+
+}
+.another-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e; 
+    padding: 30px;
+}
+
+.another-section p{
+    font-family: monospace;
+    background-color: rgb(0, 37, 0);
+    font-size: 3rem;
+    padding: 20px;
+    color: rgb(11, 177, 11);
+    font-weight: 600;
+}
